@@ -1,0 +1,125 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-family: sans-serif;
+   font-size: 15px;
+   line-height: 25px;
+}
+
+.main_container {
+   width: 1350px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   border-bottom: 2px solid;
+   padding-bottom: 20px;
+}
+
+.office_top {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   margin: 5px 0;
+}
+
+.header_table table {
+   width: 100%;
+   border: 2px solid;
+}
+
+.header_table table,
+thead,
+tr,
+td {
+   border: 1px solid;
+   border-collapse: collapse;
+   padding-left: 5px;
+}
+
+.header_top {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header_top .one {
+   border: 1px solid;
+   padding: 3px 40px;
+}
+
+.header_top .two {
+   border: 1px solid;
+   padding: 4px 15px;
+}
+
+ul li {
+   text-align: left;
+}
+
+.office_copy {
+   width: 50%;
+}
+
+.warker_copy {
+   width: 50%;
+}
+
+.footer_button {
+   display: flex;
+   justify-content: space-between;
+}
+
+td.table_valu {
+   text-align: right;
+   padding-right: 10px;
+}
+
+.header_table {
+   border: 1px solid;
+   /* padding: 5px; */
+}
+
+.footer_text {
+   border-top: 1px dotted;
+   padding-top: 5px;
+   margin-top: 15px;
+}
+
+.office_footer {
+   margin-top: 5px;
+}
+
+.left_header {
+   width: 50%;
+}
+
+.right_header {
+   width: 50%;
+}
+
+.header_top.office-copy {
+   margin-bottom: -21px;
+}
+
+.header_top.worker-copy {
+   margin-bottom: -21px;
+}
+
+.card {
+   display: flex;
+   justify-content: space-between;
+}
+
+.card1 {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
